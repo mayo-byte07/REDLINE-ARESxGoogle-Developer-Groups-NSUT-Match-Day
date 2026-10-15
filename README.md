@@ -18,8 +18,8 @@ A self-contained Python heuristic agent for the REDLINE / PokéDuel AI Pokémon 
 | File | Purpose |
 |---|---|
 | `redline_ai.py` | Python agent submitted to the arena |
-| `team.txt` | Proposed three-Pokémon team in Showdown-style text format |
-| `TEAM.md` | Team composition and intended roles |
+| `team.txt` | Team 1: Garchomp, Salamence, and Volcarona in Showdown-style text format |
+| `TEAM.md` | Screenshot-based Team 1 configuration, roles, and EV-spread caveat |
 | `requirements.txt` | Dependency declaration (standard library only) |
 
 ## Arena compatibility
@@ -36,7 +36,7 @@ The arena's live validator is authoritative. Always use **Show Error** in the po
 ## Use it in the arena
 
 1. Open the [REDLINE Pokémon AI Battle Arena](https://redline-aresxshunya.netlify.app/).
-2. In **Customize Team**, select the three Pokémon listed in `team.txt` and configure the listed abilities, items, natures, EVs, and moves where the portal permits them.
+2. In **Customize Team**, select Team 1 in this order: Garchomp, Salamence, Volcarona. Match the abilities, items, natures, and moves documented in `team.txt` where the portal permits them. The screenshot clips the full EV preset labels, so the EV values in the text file are conventional approximations; verify the preset values in the live UI.
 3. Upload `redline_ai.py` under Player 1 or Player 2.
 4. Click **Start Simulation**.
 5. Use **Show Winner** to inspect the outcome, and **Show Error** if a run fails.
@@ -45,6 +45,10 @@ The arena's live validator is authoritative. Always use **Show Error** in the po
 ### Team legality note
 
 The arena uses a curated roster and move pool. `team.txt` is a suggested team configuration in a familiar Showdown-style format; it is not a claim that the web UI imports that file automatically. Before submission, verify each move/item/ability in **Customize Team** and adjust the text file if the official portal or event rules reject an option.
+
+## Team 1 configuration
+
+The current Team 1 is Garchomp / Salamence / Volcarona, matching the supplied arena screenshot. See [`TEAM.md`](TEAM.md) for the abilities, items, natures, moves, intended roles, and EV-preset caveat. The screenshot shows one battle ending with Player 1 winning, but that single result is not a measured win rate for the agent.
 
 ## Run a local smoke test
 
