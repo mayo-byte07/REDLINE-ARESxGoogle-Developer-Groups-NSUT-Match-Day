@@ -1,0 +1,26 @@
+Garchomp @ Life Orb
+Ability: Rough Skin
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Swords Dance
+
+Salamence @ Life Orb
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Naive Nature
+- Draco Meteor
+- Flamethrower
+- Earthquake
+- Roost
+
+Volcarona @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Fiery Dance
+- Bug Buzz
+- Giga Drain
+- Quiver Dance
